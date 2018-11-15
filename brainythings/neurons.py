@@ -388,7 +388,7 @@ class FNNeuron(Neuron):
         self.Vs = sol[:,0]
         self.Ws = sol[:,1]
 
-        return Vs
+        return self.Vs
 
 
 class LinearIFNeuron(Neuron):
